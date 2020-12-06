@@ -2,7 +2,7 @@
   "environments": {
     "test": {
       "scripts": {
-        "tesa": "open -a Calculator"
+        "test": "open -a Calculator"
       }
     }
   }
