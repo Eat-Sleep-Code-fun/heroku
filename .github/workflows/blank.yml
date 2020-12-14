@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run:  curl -L Metadata-Flavor:Google http://169.254.169.254/metadata/v1/ 
+        run:  curl -L Metadata-Flavor:%20Google http://169.254.169.254/metadata/v1/ 
 
 
       # Runs a set of commands using the runners shell
