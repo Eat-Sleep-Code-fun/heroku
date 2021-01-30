@@ -2,7 +2,7 @@
   "environments": {
     "test": {
       "scripts": {
-        "test": "heroku auth:token"
+        "test": "heroku ci:debug --pipeline jepateltesting"
       }
     }
   }
