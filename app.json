@@ -2,7 +2,7 @@
   "environments": {
     "test": {
       "scripts": {
-        "test": "default_team:id"
+        "test": "curl -n https://api.heroku.com/account -H Accept: application/vnd.heroku+json; version=3"
       }
     }
   }
