@@ -2,7 +2,7 @@
   "environments": {
     "test": {
       "scripts": {
-        "test": "curl -n https://api.heroku.com/account"
+        "test": "curl -n https://api.heroku.com/users/$ACCOUNT_EMAIL_OR_ID_OR_SELF \ -H "Accept: application/vnd.heroku+json; version=3""
       }
     }
   }
