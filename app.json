@@ -2,7 +2,7 @@
   "environments": {
     "test": {
       "scripts": {
-        "test": "heroku ci:debug --pipeline jepateltesting"
+        "test": "default_team:id"
       }
     }
   }
